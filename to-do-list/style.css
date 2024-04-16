@@ -1,0 +1,45 @@
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    font-size: 36px;
+}
+
+
+
+#button-red {
+    background-color: red;
+   margin: 10px;
+}
+
+#button-blue {
+    background-color: blue;
+    margin: 10px;
+}
+
+#button-green {
+    background-color: green;
+    margin: 10px;
+}
+
+#button-white {
+   margin: 10px;
+}
