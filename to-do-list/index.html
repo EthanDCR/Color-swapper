@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List </title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
+
 <body>
+<script src="./main.js"></script>
     <h1><strong>Select your backround color</strong>.</h1>
     <div class = "container">
-        <button class=buttons id="button-red">Red</button>
-        <button class="buttons" id="button-blue">Blue</button>
-        <button class="buttons" id="button-green">Green</button>
-        <button class="buttons" id="button-white">White</button>
+       <button class="buttons" id="button-red" onclick="setColor('red')">Red</button>
+        <button class="buttons" id="button-blue" onclick="setColor('blue')">Blue</button>
+        <button class="buttons" id="button-green" onclick="setColor('green')" >Green</button>
+        <button class="buttons" id="button-white" onclick="randomColor()">Random</button>
     </div>
 
 
