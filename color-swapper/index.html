@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Flipper</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
-<script src="./main.js"></script>
     <h1><strong>Select your backround color</strong>.</h1>
-    <div class = "container">
-       <button class="buttons" id="button-red" onclick="setColor('red')">Red</button>
+    <div class="container">
+        <button class="buttons" id="button-red" onclick="setColor('red')">Red</button>
         <button class="buttons" id="button-blue" onclick="setColor('blue')">Blue</button>
-        <button class="buttons" id="button-green" onclick="setColor('green')" >Green</button>
+        <button class="buttons" id="button-green" onclick="setColor('green')">Green</button>
         <button class="buttons" id="button-white" onclick="randomColor()">Random</button>
     </div>
 
+    <div>
+
+        <input id="inputText" type="textbox">enter pokemon name</input>
+        <button id="apiButton"> click to fetch your pokemon </button>
+        <div id="message"></div>
+
+    </div>
 
 
+    <div style="padding-top: 150px">
+        <input id="fizztext" type="textbox"> enter number.</input>
+        <button id="fizzbutton">run fizz function</button>
+        <div id="fizzbuzz" </div>
+
+        </div>
 
 
+        <script src="./main.js"></script>
 </body>
+
 </html>
